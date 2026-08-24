@@ -1,0 +1,44 @@
+# Gradle and build outputs
+.gradle/
+**/build/
+
+# Android and native build outputs
+.externalNativeBuild/
+.cxx/
+captures/
+
+# IDE and editor metadata
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Local machine configuration and signing material
+local.properties
+keystore.properties
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Generated and temporary files
+*.class
+*.apk
+*.aab
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
