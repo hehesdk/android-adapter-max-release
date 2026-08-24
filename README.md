@@ -3,10 +3,10 @@
 This standalone project publishes `libs/adaptermax-release.aar` as:
 
 ```text
-com.github.hehesdk:android-adapter-max-release:0.2.1
+com.github.hehesdk:android-adapter-max-release:0.2.2
 ```
 
-JitPack exposes this standalone repository using its GitHub repository name as the artifact: `com.github.hehesdk:android-adapter-max-release:0.2.1`. Its generated POM depends on `com.github.hehesdk:android-sdk-release:0.2.1`.
+JitPack exposes this standalone repository using its GitHub repository name as the artifact: `com.github.hehesdk:android-adapter-max-release:0.2.2`. Its generated POM depends on `com.github.hehesdk:android-sdk-release:0.2.2`.
 
 ## Usage
 
@@ -27,8 +27,8 @@ Add the core SDK and this adapter:
 
 ```kotlin
 dependencies {
-    implementation("com.github.hehesdk:android-sdk-release:0.2.1")
-    implementation("com.github.hehesdk:android-adapter-max-release:0.2.1")
+    implementation("com.github.hehesdk:android-sdk-release:0.2.2")
+    implementation("com.github.hehesdk:android-adapter-max-release:0.2.2")
 }
 ```
 
