@@ -44,8 +44,6 @@ publishing {
                         dependencyNode.appendNode("scope", scope)
                     }
 
-                    // The adapter uses the core API as compileOnly; publish the selected core release.
-                    addDependency(heheSdkGroup, heheSdkArtifact, heheSdkVersion, "compile")
                     addDependency("androidx.annotation", "annotation", "1.9.1", "compile")
                     addDependency("org.jetbrains.kotlin", "kotlin-stdlib", "2.2.10", "compile")
                 }
